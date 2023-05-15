@@ -1,0 +1,18 @@
+.main {
+    background: #939090;
+    padding-top: 20px;
+    padding-right: 120px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: center;
+    min-height: 500px;
+}
+
+@media screen and (max-width: 1155px) {
+    
+    .main {
+        flex-direction: column;
+        padding: 20px;
+        justify-content: unset;
+    }
+}

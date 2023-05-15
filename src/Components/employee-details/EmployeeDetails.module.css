@@ -1,0 +1,102 @@
+.EmployeeDetails {
+    box-sizing: border-box;
+    background: #939090;
+    border: 10px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+    color: #FFFFFF;
+    font-family: 'Ink Free', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input {
+    background: #DDD3D3;
+	border-radius: 5px;
+	margin-bottom: 7px;
+	padding: 8px;
+    color: #6C6969;
+    border: none;
+}
+
+.button {
+    background: rgba(255, 146, 0, 0.8);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 146px;
+    height: 29px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.label {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.buttonElement {
+    text-align: center;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.approved {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-right: 10px;
+}
+
+.headerDetails {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+}
+
+.backLink {
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1155px) {
+    .EmployeeDetails {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .backLink {
+        position: static;
+        margin-left: 15px;
+    }
+}

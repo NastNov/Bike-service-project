@@ -1,0 +1,80 @@
+.theftForm {
+    box-sizing: border-box;
+    position: absolute;
+    width: 550px;
+    background: #939090;
+    border: 10px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 20px;
+    right: 0px;
+    bottom: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formText {
+    color: #FFFFFF;
+    font-family: 'Ink Free', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.input {
+    background: #DDD3D3;
+	border-radius: 5px;
+	margin-bottom: 7px;
+	padding: 8px;
+    color: #6C6969;
+    border: none;
+    width: 400px;
+}
+
+.inputSelect {
+    background: #DDD3D3;
+	border-radius: 5px;
+	margin-bottom: 7px;
+	padding: 8px;
+    color: #6C6969;
+    border: none;
+    width: 400px;
+    width: 414.5px;
+}
+
+.button {
+    background: rgba(255, 146, 0, 0.8);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 146px;
+    height: 29px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:1155px) {
+    .theftForm {
+        right: auto;
+        bottom: auto;
+        position: inherit;
+        width: 328px;
+        border: 5px solid #FFFFFF;
+    }
+
+    .input {
+        width: 252px;
+    }
+
+    .inputSelect {
+        width: 266.5px;
+    }
+}
+
+
+
+

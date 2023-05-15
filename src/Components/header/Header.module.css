@@ -1,0 +1,82 @@
+.header {
+	background: #939090;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 40px 120px;
+	justify-content: space-between;
+	min-height: 60px;
+}
+
+.menu {
+	display: flex;
+}
+
+.main, .theft, .employees {
+	margin-right: 50px;
+	font-size: 22px;
+	font-family: 'Ink free', sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.avatar {
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+.user {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.line {
+	margin-bottom: 5px;
+}
+
+.entry, .registration, .logOutButton {
+	cursor: pointer;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+	.header {
+		display: block;
+		padding: 20px;
+	}
+
+	.menu {
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+
+	.avatar {
+		height: 50px;
+		width: 50px;
+		margin-bottom: 10px;
+	}
+
+	.line {
+		height: 3px;
+		width: 190px;
+	}
+
+	.menuItem {
+		margin-bottom: 10px;
+	}
+
+	.main, .theft, .employees {
+		font-size: 24px;
+	}
+
+	.entry, .registration, .logOutButton {
+		font-size: 20px;
+	}
+
+}

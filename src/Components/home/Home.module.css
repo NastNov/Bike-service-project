@@ -1,0 +1,84 @@
+.service {
+    color: white;
+    font-family: 'Itim', sans-serif;
+    font-size: 45px;
+    white-space: pre-wrap;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.description {
+    color: white;
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
+    white-space: pre-wrap;
+    line-height: 28px;
+}
+
+.bike {
+    width: 640px;
+    height: 366px;
+}
+
+.mainText {
+    position: absolute;
+    top: 30px;
+}
+
+.mainImage {
+    position: absolute;
+    left: 150px;
+    bottom: 20px;
+}
+
+.mobileImage {
+    display: none;
+}
+
+.homePage {
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (max-width: 1155px) {
+    .bike {
+        display: none;
+    }
+
+    .mainText {
+        position: inherit;
+    }
+
+    .mobileImage {
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .mobileBike {
+        width: 330px;
+        height: 170px;
+    }
+
+    .service {
+        font-size: 42px;
+    }
+
+    .description {
+        display: block;
+        font-size: 20px;
+        color: white;
+        font-family: 'Itim', sans-serif;
+        white-space: pre-wrap;
+        line-height: 28px;
+        margin-bottom: 50px;
+    }
+
+    .homePage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
